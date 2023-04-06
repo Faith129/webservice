@@ -1,0 +1,37 @@
+server:
+    port:
+        6060
+endpoints:
+    accountWebService:
+        http://10.152.2.168:1960/supernovaws/AccountWebServiceEndPointPort?wsdl
+    fundsTransferWebService:
+        http://10.152.2.168:1960/supernovaws/FundsTransferWebServiceEndPointPort?wsdl
+    txnProcessWebService:
+        http://10.152.2.168:1960/supernovaws/TxnProcessWebServiceEndPointPort?wsdl
+
+
+rubikon:
+    channelId:
+        7
+    currBUId:
+        -99
+    transmissionTime:
+        1234567
+    userAccessCode:
+        proxy_user_role
+    userLoginId:
+        SYSTEM
+    userPassword:
+        proxy_password
+    userRoleId:
+        -99
+    validXapiRequest:
+        true
+    transactionCurrencyCode:
+        NGN
+    channelCode:
+        ATM
+
+
+
+
